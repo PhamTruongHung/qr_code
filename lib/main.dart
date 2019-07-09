@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:barcode_scan/barcode_scan.dart';
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Hey there!",
+          "Hey there ! ",
           style: new TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
         ),
       ),
