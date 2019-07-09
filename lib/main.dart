@@ -61,6 +61,9 @@ class _HomePageState extends State<HomePage> {
         onPressed: _scanQR,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+
+
+
     );
   }
 }
