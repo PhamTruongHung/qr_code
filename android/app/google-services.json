@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424527816339",
+    "firebase_url": "https://utilitymanagement-950503.firebaseio.com",
+    "project_id": "utilitymanagement-950503",
+    "storage_bucket": "utilitymanagement-950503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424527816339:android:58ec92493ed41964",
+        "android_client_info": {
+          "package_name": "phamtruonghunguilityqnp.qr_code"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424527816339-96mt20iag30p9fb41oshm6qhv5p0d80q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnz1th7OKwsHaLCeBnlyCelm61v0jehbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424527816339-96mt20iag30p9fb41oshm6qhv5p0d80q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

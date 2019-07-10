@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/services.dart';
+import 'dart:developer';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
@@ -15,7 +17,10 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  String personCheck;
+
   String result = "Hey there!";
+
   Future _scanQR() async {
     try{
       String qrResult = await BarcodeScanner.scan();
@@ -48,6 +53,14 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("QR Scanner"),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.add),
+            onPressed: (){
+              //log('data: trhung');
+            },
+          )
+        ],
       ),
       body: Center(
         child: Text(
